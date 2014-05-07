@@ -1,0 +1,405 @@
+/* pour éviter les spam dû aux robots */
+
+.messagePlus {
+    display: none;
+}
+
+/* Bouton retourner en haut de page */
+
+#Up{
+    margin:0;padding:0;
+    width:40px;
+    height:40px;
+    background:#B6D82F url(../images/goTop.png) -5px -5px no-repeat;
+    border-radius: 20px;
+    position:fixed;
+    left:96%;
+    top:90%;
+    opacity:0;
+    transition:all 0.3s;
+    z-index:99999;
+    box-shadow: 0 0 5px #696969;
+    cursor:pointer;
+}
+
+#Up:hover{
+    background:#F5F5F5 url(../images/goTop.png) -5px -55px no-repeat;
+}
+
+/* start footer */
+footer{    
+    margin:0;
+    padding:0;
+    width:100%;
+    min-height:330px;
+    background:#B6D82F;
+    margin-left:auto; 
+    margin-right:auto;
+    position: relative;
+    z-index: 9999;
+    overflow:hidden;
+}
+
+#bdp{  
+    margin:0;   
+    padding:0;  
+    min-height:330px;  
+    width:960px;   
+    background:#B6D82F;  
+    margin-left:auto;  
+    margin-right:auto;
+}
+
+#contentBDP{
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    height:255px;
+}
+
+/* start web news */
+#webnews{  
+    margin:0;  
+    padding:0;   
+    width:240px; 
+    min-height:250px; 
+    float:left;
+}
+
+#webnews p.titre{  
+    font-family:verdana, sans serif; 
+    font-size:17px;  
+    color:white; 
+    margin:0; 
+    margin-top:13px;   
+    margin-left:7px;  
+    padding:0;
+}
+
+#webnews p.news{ 
+    font-family:verdana, sans serif; 
+    font-size:9px;   
+    margin-left:7px;    
+    margin-right:10px;    
+    color:#334E31;
+}
+
+#webnews p.news a{    
+    text-decoration:none;    
+    color:green;
+}
+
+#webnews p.news a:hover{    
+    color:grey;
+}
+
+/* stop web news */
+/* start realisation */
+#realisations{    
+    margin:0;    
+    padding:0;    
+    width:240px;    
+    height:250px;    
+    float:left;
+}
+
+#realisations p.titre{    
+    font-family:verdana, sans serif;    
+    font-size:17px;    
+    color:white;    
+    margin:0;    
+    margin-top:13px;    
+    margin-left:7px;    
+    padding:0;
+}
+
+#case1{    
+    margin:0;    
+    padding:0;    
+    margin-top:5px;    
+    margin-right:30px;    
+    margin-left:35px;    
+    height:70px;    
+    width:70px;    
+    background:#7CCFA7 url(../images/lokisalle.jpg) left top no-repeat;    
+    float:left;
+}
+
+#case2{    
+    margin:0;    
+    padding:0;    
+    margin-top:5px;    
+    height:70px;    
+    width:70px;    
+    float:left;    
+    background:#CEDDC5 url(../images/hde.jpg) left top no-repeat;
+}
+
+#case3{    
+    margin:0;    
+    padding:0;    
+    margin-top:20px;    
+    margin-right:30px;    
+    margin-left:35px;    
+    height:70px;    
+    width:70px;    
+    float:left;    
+    background:#E1ED9B url(../images/dan.jpg) left top no-repeat;
+}
+
+#case4{    
+    margin:0;    
+    padding:0;  
+    margin-top:20px;    
+    height:70px;    
+    width:70px;    
+    float:left;    
+    background:#CBE1CA url(../images/.jpg) left top no-repeat;
+}
+
+/* stop realisation */
+/* start A propos */
+#aproposfoot{ 
+    margin:0;  
+    padding:0;  
+    width:240px; 
+    height:250px;
+    float:left;
+}
+
+#aproposfoot p.titre{    font-family:verdana, sans serif;    font-size:17px;    color:white;    margin:0;    margin-top:13px;    margin-left:7px;    padding:0;}
+#aproposfoot p{    font-family:verdana, sans serif;    font-size:9px;    margin-left:7px;    margin-right:10px;    color:#334E31;}
+#aproposfoot p span{    font-weight:bold;}
+#aproposfoot p a{    text-decoration:none;    color:grey;}
+#aproposfoot p a:hover{    color:#FFFFFF;}
+.icon{    margin-left:5px;    margin-top:15px;    float:left;}
+.iconbas{    display:block;    float:left;    margin-top:15px;}
+.icon2{    margin-left:20px;    margin-top:15px;    float:left;}
+.iconbas2{    display:block;    float:left;    margin-top:15px;}
+/* stop A propos */
+/* start formulaire */
+#formcontact{    margin:0;    padding:0;    width:240px;    height:250px;    float:left;}
+#formcontact p.titre{    font-family:verdana, sans serif;    font-size:17px;    color:white;    margin:0;    margin-top:13px;    margin-left:7px;    padding:0;}
+#formulaire{    margin-left:7px;}
+#nom{    margin-top:7px;    height:30px;    width:220px;    font-family:verdana, sans serif;    color:white;    font-size:13px;    border:none;    background:black;    opacity:0.4;}
+#email{    margin-top:7px;    width:220px;    height:30px;    font-family:verdana, sans serif;    color:white;    font-size:13px;    border:none;    background:black;    opacity:0.4;}
+#message{    margin-top:7px;    width:220px;    font-family:verdana, sans serif;    color:white;    font-size:11px;    border:none;    background:black;    opacity:0.4;}
+.boutonenvoyer{    margin-top:8px;    margin-left:140px;    background:white;    border:none;    font-size:11px;    width:70px;    height:30px;}
+.boutonenvoyer:hover{    color:white;    background:grey;}
+textarea{    resize:none;}
+#formulaire input:focus,#formulaire input:focus,#formulaire textarea:focus{    box-shadow: 0 0 30px 0 #FFFFFF;    z-index: 1;}
+
+/* stop formulaire */
+/* -----|| start CONNEXION FOOTER ||----- */
+
+#backAccess{
+    width:915px;
+    height:120px;
+    background: #F5F5F5;
+    padding:20px;
+    position:absolute;
+    top:370px;
+    opacity:0;
+    border-radius:5px;
+    box-shadow: 0 0 8px #000000;
+    transition: all 1000ms ease-in-out 0s;
+}
+
+#identifiAcces2{
+    width:100%;
+    height:80px;
+}
+
+#confirmAcces2{
+    width:100%;
+    text-align: right;
+    margin-top:10px;
+    height:35px;
+}
+
+#connectpseudo2{  
+    height:40%;
+    width:100%;
+    font-family:verdana, sans serif;
+    color:#333333;
+    font-size:13px;
+    border:none;
+    background:#FFFFFF;
+    border:1px solid #BFBFBF; 
+    border-radius:5px;
+}
+
+#connectpass2{  
+    height:40%;
+    width:100%;
+    font-family:verdana, sans serif;
+    color:#333333;
+    font-size:13px;
+    border:none;
+    background:#FFFFFF;
+    border:1px solid #BFBFBF; 
+    border-radius:5px;
+    margin-top:10px;
+}
+
+.connectConfirm2{  
+    margin:0;  
+    background:#B6D82F;  
+    border:none; 
+    font-size:13px; 
+    width:100%; 
+    height:100%;  
+    border-radius:5px; 
+    font-family:verdana;  
+    color:white;
+    cursor:pointer;
+}
+
+.connectConfirm2:hover{
+    box-shadow: 0 0 2px #333333;
+}
+
+#privateAccess2{
+    height:120px;
+}
+
+#privateAccess2 input:focus{
+    box-shadow: 0 0 5px 0 #B6D82F inset; 
+    z-index: 1;
+}
+
+/* -----|| stop CONNEXION FOOTER ||----- */
+/* start partie du bas */
+
+#bande{  
+    margin:0; 
+    padding:0; 
+    width:100%; 
+    height:60px; 
+    background:#B6D82F url(../images/bande.jpg) left top no-repeat;
+    clear:left;
+    cursor:pointer;
+}
+
+#copy{    
+    margin:0;
+    padding:0; 
+    width:100%;
+    min-height:20px;
+    background:#B6D82F;
+    clear:left;
+}
+
+#copy p{  
+    margin:0;  
+    padding:3px; 
+    font-size:11px;  
+    text-align:center; 
+    color:#374400;
+}
+
+#copy p a{ 
+    text-decoration:none; 
+    color:#374400;
+}
+
+#copy p a:hover{ 
+    color:black;
+}
+
+/* stop partie du bas */
+/* start message en réponse */
+
+#messagevalide{  
+    margin:0;
+    padding:0; 
+    width:200px;
+    height:60px;   
+    border: 1px solid #A3C41D; 
+    text-align: center;
+    background:#B6D82F;
+    opacity:1;
+    position:fixed;
+    box-shadow: 0 0 2px green;
+    left:70%;
+    top:30%;
+    z-index: 999999;
+
+}
+
+#messagevalide p{  
+    margin:0; 
+    padding:7px 0 0 0;
+    font-family:arial, sans serif; 
+    font-size:18px;  
+    color:green; 
+}
+#messageNonValide{  
+    margin:0;
+    padding:0; 
+    width:232px;
+    height:83px;   
+    border: 1px solid #D62F48; 
+    text-align: center;
+    background:#D62F5B;
+    opacity:1;
+    position:fixed;
+    box-shadow: 0 0 2px red;
+    left:70%;
+    top:30%;
+    z-index: 999999;
+}
+
+#messageNonValide p{  
+    margin:0; 
+    padding:7px 0 0 0; 
+    font-family:arial, sans serif; 
+    font-size:18px;  
+    color:#FFFFFF;
+}
+
+/* stop message en réponse */
+/* stop footer */
+
+/* RESPONSIVE */
+
+@media all and (max-width: 960px) {
+    #bdp{  
+        width:720px;
+    }
+    #webnews{
+        display:none;
+    }
+    #bande {
+        background: url("../images/bande720.jpg") no-repeat scroll left top !important;
+    }
+}
+@media all and (max-width: 720px) {
+    #bdp{  
+        width:480px;
+    }
+    #aproposfoot{
+        display:none;
+    }
+    #bande {
+        background: url("../images/bande480.jpg") no-repeat scroll left top !important;
+    }
+}
+@media all and (max-width: 480px) {
+    #bdp{  
+        width:240px;
+    }
+    #realisations{
+        float: none;
+    }
+    #bande {
+        background: url("../images/bande240.jpg") no-repeat scroll left top !important;
+    }
+}
+@media all and (max-width: 200px) {
+    #bande {
+        background: url("../images/arrow.jpg") no-repeat scroll left top !important;
+        width:55px;
+        margin-left:65px;
+    }
+}
