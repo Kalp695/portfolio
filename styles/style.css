@@ -2026,3 +2026,15 @@ article img{
         min-height: 40em;
     }
 }
+
+/**/
+.vDeux{
+    margin-left:140px !important;
+}
+
+.vDeux a{
+    color:#4FAFC2 !important;
+}
+.sansDisc{
+    list-style-type: none;
+}
