@@ -1,4 +1,4 @@
-<meta charset=utf-8/>
+<meta charset="utf-8"/>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
 <link rel="shortcut icon" href="../images/favicon.png"/>
 <link type="text/css" href="styles/style_entete.css" rel="stylesheet" media="all"/>
@@ -57,7 +57,7 @@
                         <li><a href="portfolio.php">portfolio</a></li>
                         <li><a href="latelier.php">l'atelier</a></li>
                         <li><a href="ensavoir.php">en savoir +</a></li>
-                        <li><a href="blog.php?page=1&categorie=all" class="lienMenu">blog</a></li>
+                        <li><a href="blog.php?page=1&amp;categorie=all" class="lienMenu">blog</a></li>
                         <li><a href="contact.php">contact</a></li>
                     </ul>
                 </div>
@@ -87,7 +87,7 @@
                     }
                     if (isset($_SERVER['PHP_SELF']) && ($_SERVER['PHP_SELF'] == "/latelier.php")) {
                         ?>
-                        <li><a href="" class="ici">l'atelier</a></li>
+                        <li><a href="latelier.php" class="ici">l'atelier</a></li>
                         <?php
                     } else {
                         ?>
@@ -109,7 +109,7 @@
                         <?php
                     } else {
                         ?>
-                        <li><a href="blog.php?page=1&categorie=all" class="">blog</a></li>
+                        <li><a href="blog.php?page=1&amp;categorie=all" class="">blog</a></li>
                         <?php
                     }
                     if (isset($_SERVER['PHP_SELF']) && ($_SERVER['PHP_SELF'] == "/contact.php")) {

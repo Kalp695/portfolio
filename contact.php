@@ -31,7 +31,7 @@
             </div>  
             <div id="formulcontact">       
                 <h1>Envoyer moi un message</h1>  
-                <form method="post" action="" accept-charset="UTF-8">   
+                <form method="post" accept-charset="UTF-8">   
                     <div id="formulairecontact">           
                         <div>            
                             <label for="formulairenom">Votre nom</label><br/>    

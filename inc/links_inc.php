@@ -5,6 +5,7 @@
     <div class='contenuBlogDroite'>
         <ul>
             <li><a href="javascript:void(window.open('https://www.google.com/analytics/web/?authuser=0#report/visitors-overview/a48682190w80260856p83024188/'))">Google analytics</a></li>
+            <li><a href="javascript:void(window.open('https://www.google.com/webmasters/tools/home?hl=fr'))">Google Webmaster tools</a></li>
             <li><a href="javascript:void(window.open('http://www.responsinator.com/?url=www.diw.fr'))">Responsinator (Test Responsive)</a></li>
             <li><a href="javascript:void(window.open('http://devdocs.io/'))">Dev docs</a></li>
             <li><a href="javascript:void(window.open('https://www.iconfinder.com/'))">Icon Finder</a></li>
