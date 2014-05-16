@@ -18,7 +18,7 @@
             <li><a href="javascript:void(window.open('http://www.colourlovers.com/'))">Palette et idées couleurs</a></li>
             <li><a href="javascript:void(window.open('http://colorschemedesigner.com/'))">Bon assemblage à partir d’une couleur de base</a></li>
             <li><a href="javascript:void(window.open('http://www.regexper.com/'))">REGEPEX - test javascript expressions</a></li>
-                    
+            <li><a href="javascript:void(window.open('http://bonsaiden.github.io/JavaScript-Garden//'))">JavaScript Garden</a></li>
         </ul>
     </div>
 </div>
