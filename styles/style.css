@@ -1073,10 +1073,25 @@ a{
     border-bottom: 1px solid #F2F2F2;
 }
 
+#ImWorkin{
+    width: 50%;
+    float: left; 
+    max-width:333px; 
+    max-height:333px; 
+}
+
 .contenuArticleAtelier{
     margin:0 0 10px 0; 
     padding:0;  
     width:100%;   
+    min-height:200px;  
+    float:left;
+}
+
+.contenuArticleAtelierP{
+    margin:0 0 10px 0; 
+    padding:0;  
+    width:50%;   
     min-height:200px;  
     float:left;
 }
